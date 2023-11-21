@@ -24,7 +24,7 @@ theme:
   language: en
 
   palette:
-    primary: \#212121 # prev \#815CBF
+    primary: \#815CBF
     accent: \#8660C4
     scheme: slate
 
