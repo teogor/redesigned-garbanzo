@@ -63,13 +63,6 @@ jobs:
           mkdir -p build/docs/${{ env.REPOSITORY }}/documentation
           cp -r build/dokka/htmlMultiModule/* build/docs/${{ env.REPOSITORY }}/documentation
 
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.3
-        with:
-          # This part is also where you can pass other options, for example:
-          prettier_options: --write build/docs/${{ env.REPOSITORY }}/**/*.{js,html,css,json}
-          only_changed: False
-
       - id: publish-docs
         name: Deploy API Documentation
         uses: ./.github/workflows/sync-docs/
@@ -77,7 +70,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
           source-file: build/docs/${{ env.REPOSITORY }}/
-          destination-folder: redesigned-garbanzo/
+          destination-folder: querent/
           destination-repo: teogor/source.teogor.dev
           user-email: open-source@teogor.dev
           user-name: Teodor Grigor
@@ -101,7 +94,7 @@ jobs:
         uses: creyD/prettier_action@v4.3
         with:
           # This part is also where you can pass other options, for example:
-          prettier_options: --write redesigned-garbanzo/**/*.{js,html,css,json}
+          prettier_options: --write querent/**/*.{js,html,css,json}
           only_changed: False
           same_commit: True
 
