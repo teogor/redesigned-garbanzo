@@ -3,7 +3,7 @@ site_description: Xenoglot seamlessly masters languages and locales, empowering 
 site_author: Teodor Grigor (teogor)
 site_dir: build/docs/redesigned-garbanzo
 site_url: https://github.com/teogor/redesigned-garbanzo
-edit_uri: tree/main/docs/
+#edit_uri: tree/main/docs/
 
 docs_dir: docs
 
