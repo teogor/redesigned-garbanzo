@@ -1,3 +1,4 @@
+
 [//]: # (This file was automatically generated - do not edit)
 
 ## Implementation
@@ -17,7 +18,7 @@ Here's a summary of the latest BoM versions:
 
 |    Version    |               Release Notes                | Release Date |
 |:-------------:|:------------------------------------------:|:------------:|
-| 1.0.0-alpha01 | [changelog 🔗](changelog/1.0.0-alpha01.md) | 18 Nov 2023  |
+| 1.0.0-alpha01 | [changelog 🔗](changelog/1.0.0-alpha01.md) | 22 Nov 2023 |
 
 ### Using Version Catalog
 
@@ -62,6 +63,7 @@ Materials (BoM) and individual libraries, in TOML format.
       implementation(libs.xenoglot.android)
       implementation(libs.xenoglot.core)
     }
+    &&dependenciesImplementationKotlin&&
     ```
 
 === "Groovy"
@@ -69,12 +71,13 @@ Materials (BoM) and individual libraries, in TOML format.
     ```groovy title="build.gradle"
     dependencies {
         // Xenoglot BoM
-        compile group("dev.teogor.xenoglot:version:1.0.0-alpha01")
+        implementation platform(libs.xenoglot.bom)
 
         // OR, without BOM, directly specify the libraries
 
         // Xenoglot Libraries
-        compile("dev.teogor.xenoglot:android")
-        compile("dev.teogor.xenoglot:core")
+        implementation(libs.xenoglot.android)
+        implementation(libs.xenoglot.core)
     }
+    &&dependenciesImplementationGroovy&&
     ```
