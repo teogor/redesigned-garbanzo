@@ -11,6 +11,7 @@ docs_dir: docs
 nav:
   - 'Overview': index.md
   - 'API Documentation': api-documentation.md
+  - 'Mapping': mapping.md
   - 'Version Catalog': version-catalog.md
   - 'BoM': bom/versions.md
   - 'Sponsor 🩷': sponsor.md
