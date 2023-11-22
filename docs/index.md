@@ -32,7 +32,7 @@ project that requires accurate and consistent handling of language data.
 
 ### Installation
 
-For a detailed installation, [view the relevant page](releases.md).
+For a detailed installation guide, please refer to the following page: [releases](releases.md).
 
 To install Xenoglot, add the following dependency to your build script:
 
