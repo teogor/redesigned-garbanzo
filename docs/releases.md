@@ -62,6 +62,30 @@ Your feedback helps make Xenoglot better. We want to know if you discover new is
 
 [Create a new issue](https://github.com/teogor/xenoglot/issues/new)
 
+### Version 1.0.0
+
+#### Version 1.0.0-alpha02
+
+November 24, 2023
+
+`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha02` is released. [Version 1.0.0-alpha02 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+
+**Bug Fixes**
+* Bug 1
+* Bug 2
+* Bug 3
+* Bug 4
+
+#### Version 1.0.0-alpha01
+
+November 21, 2023
+
+`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha01` is released. [Version 1.0.0-alpha01 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+
+**Bug Fixes**
+* Bug 1
+* Bug 2
+
 ---
 
 ### Overview
