@@ -56,37 +56,55 @@ dependencies {
 }
 ```
 
-### Feedback
+[//]: # (### Feedback)
 
-Your feedback helps make Xenoglot better. We want to know if you discover new issues or have ideas for improving this library. Before creating a new issue, please take a look at the [existing ones](https://github.com/teogor/xenoglot) in this library. You can add your vote to an existing issue by clicking the star button.
+[//]: # ()
+[//]: # (Your feedback helps make Xenoglot better. We want to know if you discover new issues or have ideas for improving this library. Before creating a new issue, please take a look at the [existing ones]&#40;https://github.com/teogor/xenoglot&#41; in this library. You can add your vote to an existing issue by clicking the star button.)
 
-[Create a new issue](https://github.com/teogor/xenoglot/issues/new)
+[//]: # ()
+[//]: # ([Create a new issue]&#40;https://github.com/teogor/xenoglot/issues/new&#41;)
 
-### Version 1.0.0
+[//]: # ()
+[//]: # (### Version 1.0.0)
 
-#### Version 1.0.0-alpha02
+[//]: # ()
+[//]: # (#### Version 1.0.0-alpha02)
 
-November 24, 2023
+[//]: # ()
+[//]: # (November 24, 2023)
 
-`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha02` is released. [Version 1.0.0-alpha02 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+[//]: # ()
+[//]: # (`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha02` is released. [Version 1.0.0-alpha02 contains these commits.]&#40;https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc&#41;)
 
-**Bug Fixes**
-* Bug 1
-* Bug 2
-* Bug 3
-* Bug 4
+[//]: # ()
+[//]: # (**Bug Fixes**)
 
-#### Version 1.0.0-alpha01
+[//]: # (* Bug 1)
 
-November 21, 2023
+[//]: # (* Bug 2)
 
-`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha01` is released. [Version 1.0.0-alpha01 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+[//]: # (* Bug 3)
 
-**Bug Fixes**
-* Bug 1
-* Bug 2
+[//]: # (* Bug 4)
 
----
+[//]: # ()
+[//]: # (#### Version 1.0.0-alpha01)
+
+[//]: # ()
+[//]: # (November 21, 2023)
+
+[//]: # ()
+[//]: # (`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha01` is released. [Version 1.0.0-alpha01 contains these commits.]&#40;https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc&#41;)
+
+[//]: # ()
+[//]: # (**Bug Fixes**)
+
+[//]: # (* Bug 1)
+
+[//]: # (* Bug 2)
+
+[//]: # ()
+[//]: # (---)
 
 ### Overview
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
