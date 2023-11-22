@@ -27,4 +27,3 @@ dependencies {
   implementation(libs.xenoglot.core)
 }
 ```
-
