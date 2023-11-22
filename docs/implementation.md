@@ -42,9 +42,7 @@ Materials (BoM) and individual libraries, in TOML format.
     xenoglot-bom = "1.0.0-alpha01"
 
     [libraries]
-    # Xenoglot BoM
     xenoglot-bom = { group = "dev.teogor.xenoglot", name = "bom", version.ref = "xenoglot-bom" }
-    # Xenoglot Libraries
     xenoglot-android = { group = "dev.teogor.xenoglot", name = "android" }
     xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
     ```
