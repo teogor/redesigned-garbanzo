@@ -65,7 +65,7 @@ for improving this library. Before creating a new issue, please take a look at
 the [existing ones](https://github.com/teogor/xenoglot) in this library. You can add your vote to an
 existing issue by clicking the star button.
 
-[Create a new issue](https://github.com/teogor/xenoglot/issues/new)
+[Create a new issue](https://github.com/teogor/xenoglot/issues/new){ .md-button }
 
 ### Version 1.0.0
 
