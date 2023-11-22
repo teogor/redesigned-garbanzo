@@ -1,8 +1,8 @@
 site_name: Xenoglot
 site_description: Xenoglot seamlessly masters languages and locales, empowering developers to integrate multilingual capabilities into their applications with ease.
 site_author: Teodor Grigor (teogor)
-site_dir: build/docs/xenoglot
-site_url: https://github.com/teogor/xenoglot
+site_dir: build/docs/redesigned-garbanzo
+site_url: https://github.com/teogor/redesigned-garbanzo
 edit_uri: tree/main/docs/
 
 docs_dir: docs
@@ -17,8 +17,8 @@ nav:
   - 'Security': security.md
 
 # Repository
-repo_name: xenoglot
-repo_url: https://github.com/teogor/xenoglot
+repo_name: redesigned-garbanzo
+repo_url: https://github.com/teogor/redesigned-garbanzo
 
 # Configuration
 theme:
