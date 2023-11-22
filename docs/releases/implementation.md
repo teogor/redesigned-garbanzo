@@ -72,9 +72,6 @@ Materials (BoM) and individual libraries, in TOML format.
     dependencies {
         // Xenoglot BoM
         implementation platform(libs.xenoglot.bom)
-
-        // OR, without BOM, directly specify the libraries
-
         // Xenoglot Libraries
         implementation(libs.xenoglot.android)
         implementation(libs.xenoglot.core)
