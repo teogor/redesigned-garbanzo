@@ -56,7 +56,7 @@ This section presents the implementation dependencies for Xenoglot libraries in 
 
 === "Kotlin"
 
-    ```kotlin
+    ```kotlin title="build.gradle.kts"
     dependencies {
       // Xenoglot BoM
       implementation(platform(libs.xenoglot.bom))
@@ -68,7 +68,7 @@ This section presents the implementation dependencies for Xenoglot libraries in 
 
 === "Groovy"
 
-    ```groovy
+    ```groovy title="build.gradle"
     dependencies {
         // Xenoglot BoM
         compile group("dev.teogor.xenoglot:version:1.0.0-alpha01")
