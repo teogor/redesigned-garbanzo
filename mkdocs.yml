@@ -19,7 +19,7 @@ nav:
   - Overview: index.md
   - Releases:
     - releases.md
-    - Implementation: implementation.md
+    - Implementation: releases/implementation.md
     - Mapping: mapping.md
     - BoM: bom/versions.md
   - Reference: reference.md
