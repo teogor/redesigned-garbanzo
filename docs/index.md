@@ -87,9 +87,10 @@ To get started with Xenoglot, refer to the comprehensive documentation available
 [source.teogor.dev/xenoglot](https://source.teogor.dev/xenoglot). The documentation provides
 detailed explanations, examples, and best practices for using the library effectively.
 
-## Find this repository useful? :heart:
-Support it by joining __[stargazers](https://github.com/teogor/xenoglot/stargazers)__ for this repository. :star: <br>
-Also, __[follow me](https://github.com/teogor)__ on GitHub for my next creations! 🤩
+## Find this repository useful? 🩷
+* Support it by joining __[stargazers](https://github.com/teogor/xenoglot/stargazers)__ for this repository. :star: <br>
+* Get notified about my new projects by __[following me](https://github.com/teogor)__ on GitHub. 💻
+* Interested in sponsoring me? [Support me](sponsor.md) on GitHub! 🤝
 
 # License
 ```xml
