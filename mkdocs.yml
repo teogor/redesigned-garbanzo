@@ -19,12 +19,12 @@ nav:
   - Overview: index.md
   - Releases:
     - releases.md
-    - Implementation:
-      - releases/implementation.md
-      - 1.0.0-alpha01: releases/changelog/1.0.0-alpha01.md
+    - Implementation: releases/implementation.md
     - Mapping: mapping.md
     - BoM: bom/versions.md
   - Reference: reference.md
+  - Changelog:
+    - 1.0.0-alpha01: releases/changelog/1.0.0-alpha01.md
   - Sponsor: sponsor.md
   - Security: security.md
 
