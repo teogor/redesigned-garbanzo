@@ -15,10 +15,10 @@ xenoglot-android = { group = "dev.teogor.xenoglot", name = "android" }
 xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
 ```
 
-## Libraries Implementation build.gradle.kts File
+## Dependencies Implementation
 
 This section presents the implementation dependencies for Xenoglot libraries in a Kotlin
-build.gradle.kts file format.
+`build.gradle` file format.
 
 === "Kotlin"
 
