@@ -7,50 +7,6 @@
 [![Profile](https://source.teogor.dev/badges/teogor-github.svg)](https://github.com/teogor)
 [![Open-Source Directory](https://source.teogor.dev/badges/teogor-dev.svg)](https://source.teogor.dev)
 
-=== "C"
-
-    ``` c
-    #include <stdio.h>
-
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
-
-=== "C++"
-
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
-
----
-
-test 2
-
-!!! example
-
-    === "Unordered List"
-
-        ``` markdown
-        * Sed sagittis eleifend rutrum
-        * Donec vitae suscipit est
-        * Nulla tempor lobortis orci
-        ```
-
-    === "Ordered List"
-
-        ``` markdown
-        1. Sed sagittis eleifend rutrum
-        2. Donec vitae suscipit est
-        3. Nulla tempor lobortis orci
-        ```
-
 **Xenoglot: A Comprehensive Language Data Management Toolkit**
 
 Xenoglot is a comprehensive library for representing, managing, and interacting with language data.
