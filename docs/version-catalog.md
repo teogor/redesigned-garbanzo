@@ -18,12 +18,29 @@ xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
 
 This section presents the implementation dependencies for Xenoglot libraries in a Kotlin build.gradle.kts file format.
 
-```kotlin
-dependencies {
-  // Xenoglot BoM
-  implementation(platform(libs.xenoglot.bom))
-  // Xenoglot Libraries
-  implementation(libs.xenoglot.android)
-  implementation(libs.xenoglot.core)
-}
-```
+=== "Kotlin"
+
+    ```kotlin
+    dependencies {
+      // Xenoglot BoM
+      implementation(platform(libs.xenoglot.bom))
+      // Xenoglot Libraries
+      implementation(libs.xenoglot.android)
+      implementation(libs.xenoglot.core)
+    }
+    ```
+
+=== "Groovy"
+
+    ```groovy
+    dependencies {
+        // Xenoglot BoM
+        compile group("dev.teogor.xenoglot:version:1.0.0-alpha01")
+
+        // OR, without BOM, directly specify the libraries
+
+        // Xenoglot Libraries
+        compile("dev.teogor.xenoglot:android")
+        compile("dev.teogor.xenoglot:core")
+    }
+    ```
