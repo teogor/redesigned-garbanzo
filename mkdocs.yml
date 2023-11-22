@@ -16,14 +16,14 @@ copyright: Copyright &copy; 2023 Teodor Grigor (Teogor)
 
 # Navigation
 nav:
-  - 'Overview': index.md
-  - 'Releases': releases.md
-  - 'API Reference': api-reference.md
-  - 'Mapping': mapping.md
-  - 'Version Catalog': version-catalog.md
-  - 'BoM': bom/versions.md
-  - 'Sponsor': sponsor.md
-  - 'Security': security.md
+  - Overview: index.md
+  - Releases: releases.md
+      - Mapping: mapping.md
+      - API Reference: api-reference.md
+      - Version Catalog: version-catalog.md
+      - BoM: bom/versions.md
+  - Sponsor: sponsor.md
+  - Security: security.md
 
 # Configuration
 theme:
