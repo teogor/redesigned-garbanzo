@@ -1,0 +1,60 @@
+site_name: Xenoglot
+site_description: Xenoglot seamlessly masters languages and locales, empowering developers to integrate multilingual capabilities into their applications with ease.
+site_author: Teodor Grigor (teogor)
+site_dir: build/docs/xenoglot
+site_url: https://github.com/teogor/xenoglot
+edit_uri: tree/main/docs/
+
+docs_dir: docs
+
+# Navigation
+nav:
+  - 'Overview': index.md
+  - 'API Documentation': api-documentation.md
+  - 'Version Catalog': version-catalog.md
+  - 'BoM': bom/versions.md
+  - 'Sponsor 🩷': sponsor.md
+  - 'Security': security.md
+
+# Repository
+repo_name: xenoglot
+repo_url: https://github.com/teogor/xenoglot
+
+# Configuration
+theme:
+  name: material
+  language: en
+
+  palette:
+    primary: \#815CBF
+    accent: \#8660C4
+    scheme: slate
+
+  font:
+    text: Roboto
+    code: JetBrains Mono
+
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+
+extra:
+  analytics:
+    provider: google
+    property: G-XN9N2SV8QZ
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.betterem
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
