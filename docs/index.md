@@ -30,7 +30,9 @@ project that requires accurate and consistent handling of language data.
 * **Language Territorialization:** Xenoglot provides functionality for territorializing languages,
   adapting them to specific geographical or political contexts.
 
-**Installation**
+### Installation
+
+For a detailed installation, [view the relevant page](releases.md).
 
 To install Xenoglot, add the following dependency to your build script:
 
