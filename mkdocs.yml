@@ -19,8 +19,8 @@ nav:
   - Overview: index.md
   - Releases:
     - releases.md
+    - Implementation: implementation.md
     - Mapping: mapping.md
-    - Version Catalog: version-catalog.md
     - BoM: bom/versions.md
   - Reference: reference.md
   - Sponsor: sponsor.md
