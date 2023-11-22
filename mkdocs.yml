@@ -7,6 +7,13 @@ edit_uri: tree/main/docs/
 
 docs_dir: docs
 
+# Repository
+repo_name: redesigned-garbanzo
+repo_url: https://github.com/teogor/redesigned-garbanzo
+
+# Copyright
+copyright: Copyright &copy; 2023 Teodor Grigor (Teogor)
+
 # Navigation
 nav:
   - 'Overview': index.md
@@ -17,10 +24,6 @@ nav:
   - 'BoM': bom/versions.md
   - 'Sponsor': sponsor.md
   - 'Security': security.md
-
-# Repository
-repo_name: redesigned-garbanzo
-repo_url: https://github.com/teogor/redesigned-garbanzo
 
 # Configuration
 theme:
@@ -72,6 +75,15 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+      minify_css: true
 
 extra:
   analytics:
