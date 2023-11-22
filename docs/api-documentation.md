@@ -10,12 +10,12 @@ Our project encompasses a suite of modules, each designed to address specific fu
 the overall developer experience. To delve into the intricacies of each module, refer to the dedicated
 documentation pages:
 
-- **[Xenoglot 🔗](../documentation):** Discover the heart of our project.
+- **[Xenoglot 🔗](../reference):** Discover the heart of our project.
 
-- **[Android 🔗](../documentation/android):** Navigate directly to the code-specific documentation for the project's
+- **[Android 🔗](../reference/android):** Navigate directly to the code-specific documentation for the project's
 `:android` module
 
-- **[Core 🔗](../documentation/core):** Navigate directly to the code-specific documentation for the project's
+- **[Core 🔗](../reference/core):** Navigate directly to the code-specific documentation for the project's
 - `:core` module
 
 ### Contributions and Support

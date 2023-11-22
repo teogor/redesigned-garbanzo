@@ -31,5 +31,5 @@ The **Bill of Materials (BoM)** serves as a cornerstone for maintaining synchron
 
 ### Explore Further
 
-For in-depth insights, updates, and comprehensive information regarding Xenoglot, please consult the official [Xenoglot documentation](/docs/). There, you'll discover a wealth of resources to enhance your Xenoglot development journey.
+For in-depth insights, updates, and comprehensive information regarding Xenoglot, please consult the official [Xenoglot documentation](../../). There, you'll discover a wealth of resources to enhance your Xenoglot development journey.
 

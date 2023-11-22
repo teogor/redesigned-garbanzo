@@ -2,7 +2,7 @@
 
 | Status | Library | Gradle dependency |
 | ------ | ------- | ----------------- |
-| 🧪 | [core](../documentation/core) | [dev.teogor.xenoglot:core:1.0.0-alpha01](#implementation-core) |
+| 🧪 | [core](../reference/core) | [dev.teogor.xenoglot:core:1.0.0-alpha01](#implementation-core) |
 
 By referring to the [BoM documentation](bom/versions.md), you can learn how to integrate the BoM into your project and benefit from this hassle-free approach to library version management. It's a powerful tool for staying up-to-date with the latest Xenoglot library versions and seamlessly integrating them into your projects.
 

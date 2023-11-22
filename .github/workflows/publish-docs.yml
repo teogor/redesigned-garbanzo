@@ -28,7 +28,7 @@ env:
 jobs:
   synchronize-documentation:
     runs-on: ubuntu-latest
-    name: Synchronize Repository API Documentation
+    name: Synchronize Repository Documentation
     steps:
       - uses: actions/checkout@v4
 
@@ -58,13 +58,13 @@ jobs:
       - name: Generate API Documentation
         run: ./gradlew -D'org.gradle.unsafe.configuration-cache=false' dokkaHtmlMultiModule
 
-      - name: Relocate API Documentation Assets
+      - name: Relocate API References
         run: |
-          mkdir -p build/docs/${{ env.REPOSITORY }}/documentation
-          cp -r build/dokka/htmlMultiModule/* build/docs/${{ env.REPOSITORY }}/documentation
+          mkdir -p build/docs/${{ env.REPOSITORY }}/reference
+          cp -r build/dokka/htmlMultiModule/* build/docs/${{ env.REPOSITORY }}/reference
 
       - id: publish-docs
-        name: Deploy API Documentation
+        name: Deploy Documentation
         uses: ./.github/workflows/sync-docs/
         env:
           API_TOKEN_GITHUB: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
