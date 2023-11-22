@@ -25,39 +25,39 @@ Add the dependencies for the artifacts you need in the `build.gradle` file for y
 
 === "Kotlin"
 
-  ```kotlin
-  dependencies {
-    val xenoglot_version = "1.0.0-alpha01"
+    ```kotlin
+    dependencies {
+      val xenoglot_version = "1.0.0-alpha01"
 
-    implementation("dev.teogor.xenoglot:core:$xenoglot_version")
-    implementation("dev.teogor.xenoglot:android:$xenoglot_version")
+      implementation("dev.teogor.xenoglot:core:$xenoglot_version")
+      implementation("dev.teogor.xenoglot:android:$xenoglot_version")
 
-    // or using bom
+      // or using bom
 
-    implementation(platform("dev.teogor.xenoglot:bom:$xenoglot_version"))
-    implementation("dev.teogor.xenoglot:core")
-    implementation("dev.teogor.xenoglot:android")
-  }
-  ```
-
-=== "Groovy"
-
-  ```groovy
-  dependencies {
-    def xenoglot_version = "1.0.0-alpha01"
-
-    implementation("dev.teogor.xenoglot:core:${xenoglot_version}")
-    implementation("dev.teogor.xenoglot:android:${xenoglot_version}")
-
-    // or using bom
-
-    implementation(platform("dev.teogor.xenoglot:bom:${xenoglot_version}")) {
-      // Specify the artifact to resolve and re-export the dependencies from the platform BOM
+      implementation(platform("dev.teogor.xenoglot:bom:$xenoglot_version"))
       implementation("dev.teogor.xenoglot:core")
       implementation("dev.teogor.xenoglot:android")
     }
-  }
-  ```
+    ```
+
+=== "Groovy"
+
+    ```groovy
+    dependencies {
+      def xenoglot_version = "1.0.0-alpha01"
+
+      implementation("dev.teogor.xenoglot:core:${xenoglot_version}")
+      implementation("dev.teogor.xenoglot:android:${xenoglot_version}")
+
+      // or using bom
+
+      implementation(platform("dev.teogor.xenoglot:bom:${xenoglot_version}")) {
+        // Specify the artifact to resolve and re-export the dependencies from the platform BOM
+        implementation("dev.teogor.xenoglot:core")
+        implementation("dev.teogor.xenoglot:android")
+      }
+    }
+    ```
 
 ### Feedback
 
