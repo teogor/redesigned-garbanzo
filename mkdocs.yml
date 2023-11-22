@@ -86,6 +86,15 @@ plugins:
       minify_css: true
 
 extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<email-address>
+  generator: false
   analytics:
     provider: google
     property: G-XN9N2SV8QZ
