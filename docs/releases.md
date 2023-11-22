@@ -1,6 +1,7 @@
 # Xenoglot
 
-A comprehensive library for managing language data.
+Xenoglot seamlessly masters languages and locales, empowering developers to integrate multilingual
+capabilities into their applications with ease.
 
 ---
 
