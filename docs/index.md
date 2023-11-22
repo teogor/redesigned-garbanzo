@@ -8,6 +8,7 @@
 [![Open-Source Directory](https://source.teogor.dev/badges/teogor-dev.svg)](https://source.teogor.dev)
 
 === "C"
+
   ``` c
   #include <stdio.h>
 
@@ -18,6 +19,7 @@
   ```
 
 === "C++"
+
   ``` c++
   #include <iostream>
 
