@@ -4,10 +4,21 @@
 
 The latest release is [`1.0.0-alpha01`](releases.md)
 
+### BoM (Bill of Materials) Versioning
 
-## Using Version Catalog
+The BoM (Bill of Materials) is the central hub for managing library versions within the Xenoglot
+project.
+It enables you to effortlessly keep track of the latest versions of key components and dependencies.
 
-### Declare Components
+Below is a list of the latest versions of the BOM:
+
+|    Version    |                       Release Notes                        | Release Date |
+|:-------------:|:----------------------------------------------------------:|:------------:|
+| 1.0.0-alpha01 | [changelog 🔗](1.0.0-alpha01/bom-version-1.0.0-alpha01.md) | 18 Nov 2023  |
+
+### Using Version Catalog
+
+#### Declare Components
 
 This catalog provides the implementation details of Xenoglot libraries, including Build of
 Materials (BoM) and individual libraries, in TOML format.
@@ -24,7 +35,7 @@ xenoglot-android = { group = "dev.teogor.xenoglot", name = "android" }
 xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
 ```
 
-### Dependencies Implementation
+#### Dependencies Implementation
 
 This section presents the implementation dependencies for Xenoglot libraries in a Kotlin
 `build.gradle` file format.
