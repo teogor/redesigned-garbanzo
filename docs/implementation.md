@@ -12,9 +12,9 @@ It enables you to effortlessly keep track of the latest versions of key componen
 
 Below is a list of the latest versions of the BOM:
 
-|    Version    |                       Release Notes                        | Release Date |
-|:-------------:|:----------------------------------------------------------:|:------------:|
-| 1.0.0-alpha01 | [changelog 🔗](1.0.0-alpha01/bom-version-1.0.0-alpha01.md) | 18 Nov 2023  |
+|    Version    |                         Release Notes                          | Release Date |
+|:-------------:|:--------------------------------------------------------------:|:------------:|
+| 1.0.0-alpha01 | [changelog 🔗](bom/1.0.0-alpha01/bom-version-1.0.0-alpha01.md) | 18 Nov 2023  |
 
 ### Using Version Catalog
 
