@@ -14,14 +14,15 @@ repo_url: https://github.com/teogor/redesigned-garbanzo
 # Copyright
 copyright: Copyright &copy; 2023 Teodor Grigor (Teogor)
 
-# Navigation
+# Page tree
 nav:
   - Overview: index.md
-  - Releases: releases.md
-      - Mapping: mapping.md
-      - API Reference: api-reference.md
-      - Version Catalog: version-catalog.md
-      - BoM: bom/versions.md
+  - Releases:
+    - releases.md
+    - Mapping: mapping.md
+    - API Reference: api-reference.md
+    - Version Catalog: version-catalog.md
+    - BoM: bom/versions.md
   - Sponsor: sponsor.md
   - Security: security.md
 

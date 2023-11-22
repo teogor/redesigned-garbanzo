@@ -1,6 +1,7 @@
 ## Libraries Implementation Version Catalog
 
-This catalog provides the implementation details of Xenoglot libraries, including Build of Materials (BoM) and individual libraries, in TOML format.
+This catalog provides the implementation details of Xenoglot libraries, including Build of
+Materials (BoM) and individual libraries, in TOML format.
 
 ```toml
 [versions]
@@ -16,7 +17,8 @@ xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
 
 ## Libraries Implementation build.gradle.kts File
 
-This section presents the implementation dependencies for Xenoglot libraries in a Kotlin build.gradle.kts file format.
+This section presents the implementation dependencies for Xenoglot libraries in a Kotlin
+build.gradle.kts file format.
 
 === "Kotlin"
 
