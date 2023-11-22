@@ -63,18 +63,16 @@ Materials (BoM) and individual libraries, in TOML format.
       implementation(libs.xenoglot.android)
       implementation(libs.xenoglot.core)
     }
-    &&dependenciesImplementationKotlin&&
     ```
 
 === "Groovy"
 
     ```groovy title="build.gradle"
     dependencies {
-        // Xenoglot BoM
-        implementation platform(libs.xenoglot.bom)
-        // Xenoglot Libraries
-        implementation(libs.xenoglot.android)
-        implementation(libs.xenoglot.core)
+      // Xenoglot BoM
+      implementation platform(libs.xenoglot.bom)
+      // Xenoglot Libraries
+      implementation(libs.xenoglot.android)
+      implementation(libs.xenoglot.core)
     }
-    &&dependenciesImplementationGroovy&&
     ```
