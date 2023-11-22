@@ -57,8 +57,9 @@ Materials (BoM) and individual libraries, in TOML format.
 
     ```kotlin title="build.gradle.kts"
     dependencies {
-      // Xenoglot BoM
+      // When Using Xenoglot BoM
       implementation(platform(libs.xenoglot.bom))
+
       // Xenoglot Libraries
       implementation(libs.xenoglot.android)
       implementation(libs.xenoglot.core)
@@ -69,8 +70,9 @@ Materials (BoM) and individual libraries, in TOML format.
 
     ```groovy title="build.gradle"
     dependencies {
-      // Xenoglot BoM
+      // When Using Xenoglot BoM
       implementation platform(libs.xenoglot.bom)
+
       // Xenoglot Libraries
       implementation(libs.xenoglot.android)
       implementation(libs.xenoglot.core)
