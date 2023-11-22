@@ -1,4 +1,6 @@
-## Libraries Implementation Version Catalog
+## Using Version Catalog
+
+### Declare Components
 
 This catalog provides the implementation details of Xenoglot libraries, including Build of
 Materials (BoM) and individual libraries, in TOML format.
@@ -15,7 +17,7 @@ xenoglot-android = { group = "dev.teogor.xenoglot", name = "android" }
 xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
 ```
 
-## Dependencies Implementation
+### Dependencies Implementation
 
 This section presents the implementation dependencies for Xenoglot libraries in a Kotlin
 `build.gradle` file format.
