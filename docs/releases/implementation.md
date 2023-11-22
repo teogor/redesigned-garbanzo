@@ -52,9 +52,6 @@ Materials (BoM) and individual libraries, in TOML format.
 
 #### Dependencies Implementation
 
-This section presents the implementation dependencies for Xenoglot libraries in a Kotlin
-`build.gradle` file format.
-
 === "Kotlin"
 
     ```kotlin title="build.gradle.kts"
