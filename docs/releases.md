@@ -23,69 +23,40 @@ Read [Maven's repository for more information](https://repo.maven.apache.org/mav
 
 Add the dependencies for the artifacts you need in the `build.gradle` file for your app or module:
 
-[//]: # (===Kotlin)
+=== "Kotlin"
 
-[//]: # (```Kotlin)
+```Kotlin
+dependencies {
+    val xenoglot_version = "1.0.0-alpha01"
 
-[//]: # (dependencies {)
+    implementation("dev.teogor.xenoglot:core:$xenoglot_version")
+    implementation("dev.teogor.xenoglot:android:$xenoglot_version")
 
-[//]: # (  val xenoglot_version = "1.0.0-alpha01")
+    // or using bom
 
-[//]: # ()
+    implementation(platform("dev.teogor.xenoglot:bom:$xenoglot_version"))
+    implementation("dev.teogor.xenoglot:core")
+    implementation("dev.teogor.xenoglot:android")
+}
+```
 
-[//]: # (  implementation&#40;"dev.teogor.xenoglot:core:$xenoglot_version"&#41;)
+=== "Groovy"
+```Groovy
+dependencies {
+  def xenoglot_version = "1.0.0-alpha01"
 
-[//]: # (  implementation&#40;"dev.teogor.xenoglot:android:$xenoglot_version"&#41;)
+  implementation("dev.teogor.xenoglot:core:${xenoglot_version}")
+  implementation("dev.teogor.xenoglot:android:${xenoglot_version}")
 
-[//]: # ()
+  // or using bom
 
-[//]: # (  // or using bom)
-
-[//]: # ()
-
-[//]: # (  implementation&#40;platform&#40;"dev.teogor.xenoglot:bom:$xenoglot_version"&#41;&#41;)
-
-[//]: # (  implementation&#40;"dev.teogor.xenoglot:core"&#41;)
-
-[//]: # (  implementation&#40;"dev.teogor.xenoglot:android"&#41;)
-
-[//]: # (})
-
-[//]: # (```)
-
-[//]: # ()
-
-[//]: # (===Groovy)
-
-[//]: # (```Groovy)
-
-[//]: # (dependencies {)
-
-[//]: # (  def xenoglot_version = "1.0.0-alpha01")
-
-[//]: # ()
-
-[//]: # (  implementation&#40;"dev.teogor.xenoglot:core:${xenoglot_version}"&#41;)
-
-[//]: # (  implementation&#40;"dev.teogor.xenoglot:android:${xenoglot_version}"&#41;)
-
-[//]: # ()
-
-[//]: # (  // or using bom)
-
-[//]: # (  implementation&#40;platform&#40;"dev.teogor.xenoglot:bom:${xenoglot_version}"&#41;&#41; {)
-
-[//]: # (    // Specify the artifact to resolve and re-export the dependencies from the platform BOM)
-
-[//]: # (    implementation&#40;"dev.teogor.xenoglot:core"&#41;)
-
-[//]: # (    implementation&#40;"dev.teogor.xenoglot:android"&#41;)
-
-[//]: # (  })
-
-[//]: # (})
-
-[//]: # (```)
+  implementation(platform("dev.teogor.xenoglot:bom:${xenoglot_version}")) {
+    // Specify the artifact to resolve and re-export the dependencies from the platform BOM
+    implementation("dev.teogor.xenoglot:core")
+    implementation("dev.teogor.xenoglot:android")
+  }
+}
+```
 
 ### Feedback
 
