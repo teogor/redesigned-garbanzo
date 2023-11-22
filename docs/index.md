@@ -34,30 +34,6 @@ project that requires accurate and consistent handling of language data.
 
 For a detailed installation guide, please refer to the following page: [releases](releases.md).
 
-To install Xenoglot, add the following dependency to your build script:
-
-```kotlin title="build.gradle.kts"
-dependencies {
-  implementation(platform("dev.teogor.xenoglot:bom:1.0.0-alpha01"))
-  implementation("dev.teogor.xenoglot:android")
-  implementation("dev.teogor.xenoglot:core")
-
-  // or without bom
-  implementation("dev.teogor.xenoglot:core:1.0.0-alpha01")
-}
-```
-
-```groovy title="build.gradle"
-dependencies {
-  implementation(platform("dev.teogor.xenoglot:bom:1.0.0-alpha01"))
-  implementation("dev.teogor.xenoglot:android")
-  implementation("dev.teogor.xenoglot:core")
-
-  // or without bom
-  implementation("dev.teogor.xenoglot:core:1.0.0-alpha01")
-}
-```
-
 **Usage**
 
 The following examples demonstrate how to use Xenoglot to represent and interact with language data:
