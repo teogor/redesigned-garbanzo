@@ -1,4 +1,4 @@
-## API Documentation
+## Reference
 
 Welcome to the comprehensive API documentation for our project, meticulously crafted to empower you to
 effectively utilize its capabilities. This guide provides detailed information about the project's

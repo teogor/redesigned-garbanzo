@@ -20,9 +20,9 @@ nav:
   - Releases:
     - releases.md
     - Mapping: mapping.md
-    - API Reference: api-reference.md
     - Version Catalog: version-catalog.md
     - BoM: bom/versions.md
+  - Reference: reference.md
   - Sponsor: sponsor.md
   - Security: security.md
 
