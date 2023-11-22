@@ -1,4 +1,8 @@
-## Versions
+## Implementation
+
+### Latest Version
+
+The latest release is [`1.0.0-alpha01`](releases.md)
 
 
 ## Using Version Catalog
