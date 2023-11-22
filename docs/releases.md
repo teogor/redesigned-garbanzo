@@ -19,72 +19,48 @@ A comprehensive library for managing language data.
 
 ### Declaring dependencies
 
-To add a dependency on Xenoglot, you must add the Maven repository to your project. Read [Maven's repository for more information]().
+To add a dependency on Xenoglot, you must add the Maven repository to your project. Read [Maven's repository for more information](https://repo.maven.apache.org/maven2/).
 
 Add the dependencies for the artifacts you need in the `build.gradle` file for your app or module:
 
 ===Kotlin
 ```Kotlin
 dependencies {
-    val room_version = "2.6.0"
+  val xenoglot_version = "1.0.0-alpha01"
 
-    implementation("androidx.room:room-runtime:$room_version")
-    annotationProcessor("androidx.room:room-compiler:$room_version")
+  implementation("dev.teogor.xenoglot:core:$xenoglot_version")
+  implementation("dev.teogor.xenoglot:android:$xenoglot_version")
 
-    // To use Kotlin annotation processing tool (kapt)
-    kapt("androidx.room:room-compiler:$room_version")
-    // To use Kotlin Symbol Processing (KSP)
-    ksp("androidx.room:room-compiler:$room_version")
+  // or using bom
 
-    // optional - Kotlin Extensions and Coroutines support for Room
-    implementation("androidx.room:room-ktx:$room_version")
-
-    // optional - RxJava2 support for Room
-    implementation("androidx.room:room-rxjava2:$room_version")
-
-    // optional - RxJava3 support for Room
-    implementation("androidx.room:room-rxjava3:$room_version")
-
-    // optional - Guava support for Room, including Optional and ListenableFuture
-    implementation("androidx.room:room-guava:$room_version")
-
-    // optional - Test helpers
-    testImplementation("androidx.room:room-testing:$room_version")
-
-    // optional - Paging 3 Integration
-    implementation("androidx.room:room-paging:$room_version")
+  implementation(platform("dev.teogor.xenoglot:bom:$xenoglot_version"))
+  implementation("dev.teogor.xenoglot:core")
+  implementation("dev.teogor.xenoglot:android")
 }
 ```
 
 ===Groovy
 ```Groovy
 dependencies {
-  def room_version = "2.6.0"
+  def xenoglot_version = "1.0.0-alpha01"
 
-  implementation "androidx.room:room-runtime:$room_version"
-  annotationProcessor "androidx.room:room-compiler:$room_version"
+  implementation("dev.teogor.xenoglot:core:${xenoglot_version}")
+  implementation("dev.teogor.xenoglot:android:${xenoglot_version}")
 
-  // To use Kotlin annotation processing tool (kapt)
-  kapt "androidx.room:room-compiler:$room_version"
-  // To use Kotlin Symbol Processing (KSP)
-  ksp "androidx.room:room-compiler:$room_version"
-
-  // optional - RxJava2 support for Room
-  implementation "androidx.room:room-rxjava2:$room_version"
-
-  // optional - RxJava3 support for Room
-  implementation "androidx.room:room-rxjava3:$room_version"
-
-  // optional - Guava support for Room, including Optional and ListenableFuture
-  implementation "androidx.room:room-guava:$room_version"
-
-  // optional - Test helpers
-  testImplementation "androidx.room:room-testing:$room_version"
-
-  // optional - Paging 3 Integration
-  implementation "androidx.room:room-paging:$room_version"
+  // or using bom
+  implementation(platform("dev.teogor.xenoglot:bom:${xenoglot_version}")) {
+    // Specify the artifact to resolve and re-export the dependencies from the platform BOM
+    implementation("dev.teogor.xenoglot:core")
+    implementation("dev.teogor.xenoglot:android")
+  }
 }
 ```
+
+### Feedback
+
+Your feedback helps make Xenoglot better. We want to know if you discover new issues or have ideas for improving this library. Before creating a new issue, please take a look at the [existing ones](https://github.com/teogor/xenoglot) in this library. You can add your vote to an existing issue by clicking the star button.
+
+[Create a new issue](https://github.com/teogor/xenoglot/issues/new)
 
 ---
 
