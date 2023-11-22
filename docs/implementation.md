@@ -23,17 +23,31 @@ Below is a list of the latest versions of the BOM:
 This catalog provides the implementation details of Xenoglot libraries, including Build of
 Materials (BoM) and individual libraries, in TOML format.
 
-```toml title="gradle/libs.versions.toml"
-[versions]
-xenoglot-bom = "1.0.0-alpha01"
+=== "Default"
 
-[libraries]
-# Xenoglot BoM
-xenoglot-bom = { group = "dev.teogor.xenoglot", name = "bom", version.ref = "xenoglot-bom" }
-# Xenoglot Libraries
-xenoglot-android = { group = "dev.teogor.xenoglot", name = "android" }
-xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
-```
+    ```toml title="gradle/libs.versions.toml"
+    [versions]
+    xenoglot-android = "1.0.0-alpha01"
+    xenoglot-core = "1.0.0-alpha01"
+
+    [libraries]
+    xenoglot-android = { group = "dev.teogor.xenoglot", name = "android", version.ref = "xenoglot-android" }
+    xenoglot-core = { group = "dev.teogor.xenoglot", name = "core", version.ref = "xenoglot-core" }
+    ```
+
+=== "Using BoM"
+
+    ```toml title="gradle/libs.versions.toml"
+    [versions]
+    xenoglot-bom = "1.0.0-alpha01"
+
+    [libraries]
+    # Xenoglot BoM
+    xenoglot-bom = { group = "dev.teogor.xenoglot", name = "bom", version.ref = "xenoglot-bom" }
+    # Xenoglot Libraries
+    xenoglot-android = { group = "dev.teogor.xenoglot", name = "android" }
+    xenoglot-core = { group = "dev.teogor.xenoglot", name = "core" }
+    ```
 
 #### Dependencies Implementation
 
