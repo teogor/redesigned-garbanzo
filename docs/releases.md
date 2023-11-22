@@ -1,3 +1,5 @@
+[//]: # (This file was automatically generated - do not edit)
+
 # Xenoglot
 
 Xenoglot seamlessly masters languages and locales, empowering developers to integrate multilingual
