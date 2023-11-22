@@ -12,9 +12,9 @@ A comprehensive library for managing language data.
 
 ### Release
 
-|   Latest Update   | Stable Release | Release Candidate | Beta Release | Alpha Release |
-|:-----------------:|:--------------:|:-----------------:|:------------:|:-------------:|
-| November 21, 2023 |       -        |         -         |      -       | 1.0.0.alpha01 |
+|   Latest Update   | Stable Release | Beta Release | Alpha Release |
+|:-----------------:|:--------------:|:------------:|:-------------:|
+| November 21, 2023 |       -        |      -       | 1.0.0.alpha01 |
 
 ### Declaring dependencies
 
@@ -27,20 +27,21 @@ Add the dependencies for the artifacts you need in the `build.gradle` file for y
 
 ```Kotlin
 dependencies {
-    val xenoglot_version = "1.0.0-alpha01"
+  val xenoglot_version = "1.0.0-alpha01"
 
-    implementation("dev.teogor.xenoglot:core:$xenoglot_version")
-    implementation("dev.teogor.xenoglot:android:$xenoglot_version")
+  implementation("dev.teogor.xenoglot:core:$xenoglot_version")
+  implementation("dev.teogor.xenoglot:android:$xenoglot_version")
 
-    // or using bom
+  // or using bom
 
-    implementation(platform("dev.teogor.xenoglot:bom:$xenoglot_version"))
-    implementation("dev.teogor.xenoglot:core")
-    implementation("dev.teogor.xenoglot:android")
+  implementation(platform("dev.teogor.xenoglot:bom:$xenoglot_version"))
+  implementation("dev.teogor.xenoglot:core")
+  implementation("dev.teogor.xenoglot:android")
 }
 ```
 
 === "Groovy"
+
 ```Groovy
 dependencies {
   def xenoglot_version = "1.0.0-alpha01"
