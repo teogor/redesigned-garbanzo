@@ -6,7 +6,7 @@
 
 The latest release is [`1.0.0-alpha01`](../releases.md)
 
-### BoM (Bill of Materials) Versioning
+### BoM Releases
 
 The BoM (Bill of Materials) is the central repository for managing library versions within the
 Xenoglot project. It streamlines the process of tracking the latest versions of key components and
