@@ -1,3 +1,6 @@
+## Versions
+
+
 ## Using Version Catalog
 
 ### Declare Components
@@ -5,7 +8,7 @@
 This catalog provides the implementation details of Xenoglot libraries, including Build of
 Materials (BoM) and individual libraries, in TOML format.
 
-```toml  title="gradle/libs.versions.toml"
+```toml title="gradle/libs.versions.toml"
 [versions]
 xenoglot-bom = "1.0.0-alpha01"
 
