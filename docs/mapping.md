@@ -2,16 +2,19 @@
 
 ## Xenoglot android
 
-| Status | Library | Gradle dependency |
-| ------ | ------- | ----------------- |
-| 🧪 | [android](../reference/android) | [dev.teogor.xenoglot:android:1.0.0-alpha01](#implementation-android) |
+| Status | Library                         | Gradle dependency                                                    |
+|--------|---------------------------------|----------------------------------------------------------------------|
+| 🧪     | [android](../reference/android) | [dev.teogor.xenoglot:android:1.0.0-alpha01](#implementation-android) |
 
-By referring to the [BoM documentation](bom/versions.md), you can learn how to integrate the BoM into your project and benefit from this hassle-free approach to library version management. It's a powerful tool for staying up-to-date with the latest Xenoglot library versions and seamlessly integrating them into your projects.
-
+By referring to the [BoM documentation](bom/versions.md), you can learn how to integrate the BoM
+into your project and benefit from this hassle-free approach to library version management. It's a
+powerful tool for staying up-to-date with the latest Xenoglot library versions and seamlessly
+integrating them into your projects.
 
 ### Implementation Android
 
-To use android in your project, add the following dependency to your module-level Gradle file (usually `app/build.gradle.kts`):
+To use android in your project, add the following dependency to your module-level Gradle file (
+usually `app/build.gradle.kts`):
 
 ```kotlin
 implementation("dev.teogor.xenoglot:android:1.0.0-alpha01")
@@ -27,16 +30,19 @@ implementation("dev.teogor.xenoglot:android:1.0.0-alpha01")
 
 ## Xenoglot core
 
-| Status | Library | Gradle dependency |
-| ------ | ------- | ----------------- |
-| 🧪 | [core](../reference/core) | [dev.teogor.xenoglot:core:1.0.0-alpha01](#implementation-core) |
+| Status | Library                   | Gradle dependency                                              |
+|--------|---------------------------|----------------------------------------------------------------|
+| 🧪     | [core](../reference/core) | [dev.teogor.xenoglot:core:1.0.0-alpha01](#implementation-core) |
 
-By referring to the [BoM documentation](bom/versions.md), you can learn how to integrate the BoM into your project and benefit from this hassle-free approach to library version management. It's a powerful tool for staying up-to-date with the latest Xenoglot library versions and seamlessly integrating them into your projects.
-
+By referring to the [BoM documentation](bom/versions.md), you can learn how to integrate the BoM
+into your project and benefit from this hassle-free approach to library version management. It's a
+powerful tool for staying up-to-date with the latest Xenoglot library versions and seamlessly
+integrating them into your projects.
 
 ### Implementation Core
 
-To use core in your project, add the following dependency to your module-level Gradle file (usually `app/build.gradle.kts`):
+To use core in your project, add the following dependency to your module-level Gradle file (
+usually `app/build.gradle.kts`):
 
 ```kotlin
 implementation("dev.teogor.xenoglot:core:1.0.0-alpha01")
