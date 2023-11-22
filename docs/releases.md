@@ -12,9 +12,9 @@ A comprehensive library for managing language data.
 
 ### Release
 
-| Latest Update     | Stable Release | Release Candidate | Beta Release | Alpha Release |
-|-------------------|----------------|-------------------|--------------|---------------|
-| November 21, 2023 | -              | -                 | -            | 1.0.0.alpha01 |
+|   Latest Update   | Stable Release | Release Candidate | Beta Release | Alpha Release |
+|:-----------------:|:--------------:|:-----------------:|:------------:|:-------------:|
+| November 21, 2023 |       -        |         -         |      -       | 1.0.0.alpha01 |
 
 ### Declaring dependencies
 
@@ -102,7 +102,8 @@ existing issue by clicking the star button.
 
 November 24, 2023
 
-`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha02` is released. [Version 1.0.0-alpha02 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha02` is
+released. [Version 1.0.0-alpha02 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
 
 **Bug Fixes**
 
@@ -115,7 +116,8 @@ November 24, 2023
 
 November 21, 2023
 
-`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha01` is released. [Version 1.0.0-alpha01 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha01` is
+released. [Version 1.0.0-alpha01 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
 
 **Bug Fixes**
 
