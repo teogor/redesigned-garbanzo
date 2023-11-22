@@ -50,7 +50,7 @@ mkdir -p $CLONE_DIR/$DESTINATION_FOLDER
 
 if [ -z "$USE_RSYNC" ]; then
   echo "Copying using cp"
-  cp -r "$SOURCE_FILE/" "$DEST_COPY"
+  cp -r "$SOURCE_FILE/querent/" "$DEST_COPY"
 else
   echo "Copying using rsync"
   rsync -avrh "$SOURCE_FILE/" "$DEST_COPY"
