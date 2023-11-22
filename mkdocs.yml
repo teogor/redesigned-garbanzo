@@ -10,6 +10,7 @@ docs_dir: docs
 # Navigation
 nav:
   - 'Overview': index.md
+  - 'Releases': releases.md
   - 'API Reference': api-reference.md
   - 'Mapping': mapping.md
   - 'Version Catalog': version-catalog.md
