@@ -24,7 +24,18 @@ Xenoglot is a comprehensive library for representing, managing, and interacting 
 
 To install Xenoglot, add the following dependency to your build script:
 
-```kotlin
+```kotlin title="build.gradle.kts"
+dependencies {
+  implementation(platform("dev.teogor.xenoglot:bom:1.0.0-alpha01"))
+  implementation("dev.teogor.xenoglot:android")
+  implementation("dev.teogor.xenoglot:core")
+
+  // or without bom
+  implementation("dev.teogor.xenoglot:core:1.0.0-alpha01")
+}
+```
+
+```groovy title="build.gradle"
 dependencies {
   implementation(platform("dev.teogor.xenoglot:bom:1.0.0-alpha01"))
   implementation("dev.teogor.xenoglot:android")
