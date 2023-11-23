@@ -35,8 +35,7 @@ plugins {
   alias(libs.plugins.ksp) apply false
 
   alias(libs.plugins.querent) apply false
-  // alias(libs.plugins.winds) apply true
-  id("dev.teogor.winds")
+  alias(libs.plugins.winds) apply true
 
   alias(libs.plugins.about.libraries) apply false
 
