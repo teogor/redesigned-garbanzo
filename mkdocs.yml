@@ -1,15 +1,15 @@
 site_name: Ceres
 site_description: Ceres is a comprehensive Android development framework designed to streamline your app development process.
 site_author: Teodor Grigor (teogor)
-site_dir: build/docs/ceres
-site_url: https://github.com/teogor/ceres
+site_dir: build/docs/redesigned-garbanzo
+site_url: https://github.com/teogor/redesigned-garbanzo
 edit_uri: raw/main/docs/
 
 docs_dir: docs
 
 # Repository
-repo_name: ceres
-repo_url: https://github.com/teogor/ceres
+repo_name: redesigned-garbanzo
+repo_url: https://github.com/teogor/redesigned-garbanzo
 
 # Copyright
 copyright: Copyright &copy; 2023 Teodor Grigor (Teogor)
@@ -21,6 +21,9 @@ nav:
     - releases.md
     - Implementation: releases/implementation.md
     - Changelog:
+      - 1.0.0-alpha04: releases/changelog/1.0.0-alpha04.md
+      - 1.0.0-alpha03: releases/changelog/1.0.0-alpha03.md
+      - 1.0.0-alpha02: releases/changelog/1.0.0-alpha02.md
       - 1.0.0-alpha01: releases/changelog/1.0.0-alpha01.md
   - Reference: reference.md
   - Sponsor: sponsor.md
