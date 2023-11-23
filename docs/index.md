@@ -43,3 +43,16 @@ The Ceres Version Catalog provides implementation details of Ceres libraries and
 ---
 
 We hope this documentation helps you make the most of the Ceres Android library. If you have any questions or need further assistance, feel free to reach out to us. Happy coding!
+
+**Getting Started**
+
+To get started with Xenoglot, refer to the comprehensive documentation available at
+[source.teogor.dev/ceres](https://source.teogor.dev/ceres). The documentation provides
+detailed explanations, examples, and best practices for using the library effectively.
+
+## Find this repository useful? 🩷
+
+* Support it by joining __[stargazers](https://github.com/teogor/ceres/stargazers)__ for this
+repository. 📁
+* Get notified about my new projects by __[following me](https://github.com/teogor)__ on GitHub. 💻
+* Interested in sponsoring me? [Support me](sponsor.md) on GitHub! 🤝
