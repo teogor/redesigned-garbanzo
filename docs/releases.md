@@ -73,11 +73,31 @@ existing issue by clicking the star button.
 
 ### Version 1.0.0
 
+#### Version 1.0.0-alpha02
+
+October 3, 2023
+
+`dev.teogor.ceres:ceres-*:1.0.0-alpha02` is
+released. [Version 1.0.0-alpha02 contains these commits.](https://github.com/teogor/ceres/compare/1.0.0-alpha01...1.0.0-alpha02)
+
+**Enhancement**
+* Documentation Generation for BOM 1.0.0alpha-02 ([#117](https://github.com/teogor/ceres/pull/117)) by [@teogor](https://github.com/teogor)
+* Migrate Utilities and Integrate Ceres Core Foundation Composition Provider ([#115](https://github.com/teogor/ceres/pull/115)) by [@teogor](https://github.com/teogor)
+* About Ceres Framework UI and GitHub Link ([#112](https://github.com/teogor/ceres/pull/112)) by [@teogor](https://github.com/teogor)
+* Update Android SDK and Introduce Core Library Desugaring Control ([#110](https://github.com/teogor/ceres/pull/110)) by [@teogor](https://github.com/teogor)
+
+**Bug Fixes**
+* Remove 'about-libraries' Plugin Configuration ([#111](https://github.com/teogor/ceres/pull/111)) by [@teogor](https://github.com/teogor)
+* Optional Status Bar Padding in FullScreenLayoutBase ([#109](https://github.com/teogor/ceres/pull/109)) by [@teogor](https://github.com/teogor)
+
+**Others**
+* UI Enhancements and Refactoring for Screens ([#108](https://github.com/teogor/ceres/pull/108)) by [@teogor](https://github.com/teogor)
+
 #### Version 1.0.0-alpha01
 
-November 21, 2023
+September 28, 2023
 
-`dev.teogor.xenoglot:xenoglot-*:1.0.0-alpha01` is
-released. [Version 1.0.0-alpha01 contains these commits.](https://github.com/teogor/xenoglot/commit/ff798bb57b380403a26d23ee4260e6ab98627adc)
+`dev.teogor.ceres:ceres-*:1.0.0-alpha01` is
+released. [Version 1.0.0-alpha01 contains these commits.](https://github.com/teogor/ceres/compare/6179ac776758e1905c36093a803fec7af99176b7...1.0.0-alpha01)
 
 **Initial Release** 🎊
