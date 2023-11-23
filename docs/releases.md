@@ -88,6 +88,7 @@ October 3, 2023
 released. [Version 1.0.0-alpha03 contains these commits.](https://github.com/teogor/ceres/compare/1.0.0-alpha02...1.0.0-alpha03)
 
 **Enhancement**
+
 * Allow users to specify a custom Ceres Framework version in aboutCeresFramework ([#148](https://github.com/teogor/ceres/pull/148)) by [@teogor](https://github.com/teogor)
 * Add Lifecycle Observation Utilities for Activity, Application, and Composable Components ([#146](https://github.com/teogor/ceres/pull/146)) by [@teogor](https://github.com/teogor)
 * Creation of core-common module and addition of KeepScreenOnKt and ContextUtilsKt functions ([#144](https://github.com/teogor/ceres/pull/144)) by [@teogor](https://github.com/teogor)
@@ -101,6 +102,7 @@ released. [Version 1.0.0-alpha03 contains these commits.](https://github.com/teo
 * Enhance Compose Modifier with Conditional Application ([#127](https://github.com/teogor/ceres/pull/127)) by [@teogor](https://github.com/teogor)
 
 **Bug Fixes**
+
 * Update AdMob SDK Initialization Based on Consent Status ([#142](https://github.com/teogor/ceres/pull/142)) by [@teogor](https://github.com/teogor)
 * Fixed App Open Ad Display on App Resume ([#136](https://github.com/teogor/ceres/pull/136)) by [@teogor](https://github.com/teogor)
 * Bottom Navigation Bar Title Handling in TopLevelDestination ([#133](https://github.com/teogor/ceres/pull/133)) by [@teogor](https://github.com/teogor)
@@ -108,6 +110,7 @@ released. [Version 1.0.0-alpha03 contains these commits.](https://github.com/teo
 * Full-Screen Layout Status Bar Padding Issue ([#128](https://github.com/teogor/ceres/pull/128)) by [@teogor](https://github.com/teogor)
 
 **Others**
+
 * Move `UserID` class to `core.foundation.models` ([#140](https://github.com/teogor/ceres/pull/140)) by [@teogor](https://github.com/teogor)
 
 #### Version 1.0.0-alpha02
@@ -118,16 +121,19 @@ October 3, 2023
 released. [Version 1.0.0-alpha02 contains these commits.](https://github.com/teogor/ceres/compare/1.0.0-alpha01...1.0.0-alpha02)
 
 **Enhancement**
+
 * Documentation Generation for BOM 1.0.0alpha-02 ([#117](https://github.com/teogor/ceres/pull/117)) by [@teogor](https://github.com/teogor)
 * Migrate Utilities and Integrate Ceres Core Foundation Composition Provider ([#115](https://github.com/teogor/ceres/pull/115)) by [@teogor](https://github.com/teogor)
 * About Ceres Framework UI and GitHub Link ([#112](https://github.com/teogor/ceres/pull/112)) by [@teogor](https://github.com/teogor)
 * Update Android SDK and Introduce Core Library Desugaring Control ([#110](https://github.com/teogor/ceres/pull/110)) by [@teogor](https://github.com/teogor)
 
 **Bug Fixes**
+
 * Remove 'about-libraries' Plugin Configuration ([#111](https://github.com/teogor/ceres/pull/111)) by [@teogor](https://github.com/teogor)
 * Optional Status Bar Padding in FullScreenLayoutBase ([#109](https://github.com/teogor/ceres/pull/109)) by [@teogor](https://github.com/teogor)
 
 **Others**
+
 * UI Enhancements and Refactoring for Screens ([#108](https://github.com/teogor/ceres/pull/108)) by [@teogor](https://github.com/teogor)
 
 #### Version 1.0.0-alpha01
