@@ -1,6 +1,6 @@
 [//]: # (This file was automatically generated - do not edit)
 
-# Ceres
+# Ceres Releases
 
 Ceres seamlessly masters languages and locales, empowering developers to integrate multilingual
 capabilities into their applications with ease.
