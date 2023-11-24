@@ -59,7 +59,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:analytics",
     "dependencies": [
@@ -83,7 +83,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:common",
     "dependencies": [
@@ -107,7 +107,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:foundation",
     "dependencies": [
@@ -127,10 +127,11 @@
     "groupId": "dev.teogor.ceres",
     "artifactId": "ceres-core-network",
     "version": {
-      "major": 0,
+      "major": 1,
       "minor": 0,
       "patch": 0,
-      "isDeprecated": true
+      "flag": "Alpha",
+      "versionQualifier": 4
     },
     "path": ":core:network",
     "dependencies": [
@@ -154,7 +155,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:notifications",
     "dependencies": [
@@ -178,7 +179,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:register",
     "dependencies": [
@@ -202,7 +203,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:runtime",
     "dependencies": [
@@ -226,7 +227,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":core:startup",
     "dependencies": [
@@ -322,7 +323,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":firebase:analytics",
     "dependencies": [
@@ -346,7 +347,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":firebase:crashlytics",
     "dependencies": [
@@ -370,7 +371,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":firebase:remote-config",
     "dependencies": [
@@ -394,7 +395,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":framework:core",
     "dependencies": [
@@ -418,7 +419,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":framework:ui",
     "dependencies": [
@@ -442,7 +443,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":monetisation:admob",
     "dependencies": [
@@ -466,7 +467,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":monetisation:ads",
     "dependencies": [
@@ -490,7 +491,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":monetisation:messaging",
     "dependencies": [
@@ -514,7 +515,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 2
+      "versionQualifier": 3
     },
     "path": ":navigation:common",
     "dependencies": [
@@ -538,7 +539,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 2
+      "versionQualifier": 3
     },
     "path": ":navigation:core",
     "dependencies": [
@@ -585,7 +586,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 2
+      "versionQualifier": 3
     },
     "path": ":navigation:screen",
     "dependencies": [
@@ -609,7 +610,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 2
+      "versionQualifier": 3
     },
     "path": ":navigation:ui",
     "dependencies": [
@@ -633,7 +634,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":screen:builder",
     "dependencies": [
@@ -657,7 +658,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":screen:core",
     "dependencies": [
@@ -681,7 +682,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":screen:ui",
     "dependencies": [
@@ -705,7 +706,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":ui:compose",
     "dependencies": [
@@ -729,7 +730,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":ui:designsystem",
     "dependencies": [
@@ -753,7 +754,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":ui:foundation",
     "dependencies": [
@@ -777,7 +778,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":ui:icons",
     "dependencies": [
@@ -801,7 +802,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":ui:spectrum",
     "dependencies": [
@@ -825,7 +826,7 @@
       "minor": 0,
       "patch": 0,
       "flag": "Alpha",
-      "versionQualifier": 3
+      "versionQualifier": 4
     },
     "path": ":ui:theme",
     "dependencies": [
